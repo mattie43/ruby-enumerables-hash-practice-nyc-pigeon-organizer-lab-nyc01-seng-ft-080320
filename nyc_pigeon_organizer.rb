@@ -12,7 +12,7 @@ def nyc_pigeon_organizer(data)
       v2.each do |name|
         puts "name: #{name}"
         if !pigeon_list[name]
-          pigeon_list[name] = { k => [k2.to_s] }
+          pigeon_list[name] = Hash.new
         end
         puts "list: #{pigeon_list}"
       end
