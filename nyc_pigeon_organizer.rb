@@ -11,9 +11,9 @@ def nyc_pigeon_organizer(data)
       puts "value2: #{v2}"
       v2.each do |name|
         puts "name: #{name}"
-        pigeon_list[name] = { k => [k2.to_s] }
         if !pigeon_list[name]
-          
+          pigeon_list[name] = { k => [k2.to_s] }
+        end
         puts "list: #{pigeon_list}"
       end
     end
