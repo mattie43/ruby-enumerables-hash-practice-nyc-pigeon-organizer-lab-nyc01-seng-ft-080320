@@ -14,6 +14,9 @@ def nyc_pigeon_organizer(data)
         if !pigeon_list[name]
           pigeon_list[name] = Hash.new
         end
+        elsif pigeon_list[name]
+          pigeon_list[name] = Hash.new
+        end
         puts "list: #{pigeon_list}"
       end
     end
