@@ -1,19 +1,6 @@
 require 'pry'
 
 def nyc_pigeon_organizer(data)
-  data.each_with_object({}) do |(k,v), a|
-    puts "key: #{k}"
-    puts "value: #{v}"
-    puts "accum: #{a}"
-    v.each do |k2,v2|
-      puts "key2: #{k2}"
-      puts "value2: #{v2}"
-    end
-  end
-end
-
-=begin
-def nyc_pigeon_organizer(data)
   # write your code here!
   pigeon_list = Hash.new
   data.each do |k,v|
@@ -24,15 +11,14 @@ def nyc_pigeon_organizer(data)
       puts "value2: #{v2}"
       v2.each do |name|
         puts "name: #{name}"
-        pigeon_list[name] = {
-          k => [k2.to_s]
-        }
+        pigeon_list[name] = { k => [k2.to_s] }
+        if !pigeon_list[name]
+          
         puts "list: #{pigeon_list}"
       end
     end
   end
 end
-=end
 
 =begin
 
