@@ -15,7 +15,7 @@ def nyc_pigeon_organizer(data)
           pigeon_list[name] = Hash.new
         end
         if pigeon_list[name]
-          pigeon_list[name][k] = [k2]
+          pigeon_list[name][k] << [k2]
         end
         puts "list: #{pigeon_list}"
       end
