@@ -16,6 +16,8 @@ def nyc_pigeon_organizer(data)
         end
         puts "list: #{pigeon_list}"
       end
+      if pigeon_list[name]
+        pigeon_list[name] 
     end
   end
   pigeon_list
