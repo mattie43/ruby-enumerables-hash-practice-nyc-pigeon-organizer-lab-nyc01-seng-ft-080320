@@ -11,7 +11,6 @@ def nyc_pigeon_organizer(data)
       puts "value2: #{v2}"
       v2.each do |name|
         puts "name: #{name}"
-        binding.pry
         pigeon_list[name] = {
           k => [k2.to_s]
         }
