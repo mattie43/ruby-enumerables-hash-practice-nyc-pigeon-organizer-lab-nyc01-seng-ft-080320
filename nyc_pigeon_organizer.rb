@@ -18,7 +18,7 @@ def nyc_pigeon_organizer(data)
           pigeon_list[name][k] = []
         end
         if pigeon_list[name][k]
-          pigeon_list[name][k] << k2
+          pigeon_list[name][k] << k2.to_s
         end
         puts "list: #{pigeon_list}"
       end
