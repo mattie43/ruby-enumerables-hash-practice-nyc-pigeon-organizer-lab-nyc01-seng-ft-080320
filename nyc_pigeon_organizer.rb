@@ -1,6 +1,14 @@
 require 'pry'
 
 def nyc_pigeon_organizer(data)
+  data.each_with_object({}) do |(k,v) a|
+    puts "key: #{k}"
+    puts "value: #{v}"
+  end
+end
+
+=begin
+def nyc_pigeon_organizer(data)
   # write your code here!
   pigeon_list = Hash.new
   data.each do |k,v|
@@ -19,6 +27,7 @@ def nyc_pigeon_organizer(data)
     end
   end
 end
+=end
 
 =begin
 
