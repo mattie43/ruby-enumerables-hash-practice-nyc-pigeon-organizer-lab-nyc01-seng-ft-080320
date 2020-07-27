@@ -4,6 +4,7 @@ def nyc_pigeon_organizer(data)
   data.each_with_object({}) do |(k,v) a|
     puts "key: #{k}"
     puts "value: #{v}"
+    puts "accum: #{a}"
   end
 end
 
