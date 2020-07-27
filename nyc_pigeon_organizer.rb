@@ -5,6 +5,10 @@ def nyc_pigeon_organizer(data)
     puts "key: #{k}"
     puts "value: #{v}"
     puts "accum: #{a}"
+    v.each do |k2,v2|
+      puts "key: #{k2}"
+      puts "value: #{v2}"
+    end
   end
 end
 
