@@ -6,8 +6,8 @@ def nyc_pigeon_organizer(data)
     puts "value: #{v}"
     puts "accum: #{a}"
     v.each do |k2,v2|
-      puts "key: #{k2}"
-      puts "value: #{v2}"
+      puts "key2: #{k2}"
+      puts "value2: #{v2}"
     end
   end
 end
